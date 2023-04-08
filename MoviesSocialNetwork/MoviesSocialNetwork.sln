@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesSocialNetwork", "MoviesSocialNetwork\MoviesSocialNetwork.csproj", "{6D8D23AA-6CBF-4B54-AC98-E4A1EB6BDEE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackMoviesSocialNetwork", "BackMoviesSocialNetwork\BackMoviesSocialNetwork.csproj", "{43208860-F4A4-4ED3-864B-FDFDA133F602}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSNBackTesting", "MSNBackTesting\MSNBackTesting.csproj", "{49CAC7CE-0C59-4324-96AB-8ED259A77297}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{6D8D23AA-6CBF-4B54-AC98-E4A1EB6BDEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D8D23AA-6CBF-4B54-AC98-E4A1EB6BDEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8D23AA-6CBF-4B54-AC98-E4A1EB6BDEE3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43208860-F4A4-4ED3-864B-FDFDA133F602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43208860-F4A4-4ED3-864B-FDFDA133F602}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43208860-F4A4-4ED3-864B-FDFDA133F602}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43208860-F4A4-4ED3-864B-FDFDA133F602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CAC7CE-0C59-4324-96AB-8ED259A77297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CAC7CE-0C59-4324-96AB-8ED259A77297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CAC7CE-0C59-4324-96AB-8ED259A77297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CAC7CE-0C59-4324-96AB-8ED259A77297}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
