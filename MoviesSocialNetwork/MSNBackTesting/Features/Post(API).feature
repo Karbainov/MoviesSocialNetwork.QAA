@@ -14,3 +14,8 @@ Scenario: Get posts of a user
 	When Log into another user account
 	And User requests posts of created user
 	Then User gets response with created user's posts
+
+Scenario: Add comment to a post
+	Given Created user shares a post
+
+ 
