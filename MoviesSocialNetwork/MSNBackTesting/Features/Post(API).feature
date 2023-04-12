@@ -17,5 +17,8 @@ Scenario: Get posts of a user
 
 Scenario: Add comment to a post
 	Given Created user shares a post
-
+	When Log into another user account
+	And User writes a comment
+	And User requests comments of a post
+	Then User gets response with  comments of a post
  
