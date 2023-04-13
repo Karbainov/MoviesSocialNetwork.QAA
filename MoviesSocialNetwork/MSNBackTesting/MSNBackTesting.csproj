@@ -20,4 +20,10 @@
     <Folder Include="Support\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Features\Userposts%28API%29.feature.cs">
+      <DependentUpon>UserPosts%28API%29.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>

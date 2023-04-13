@@ -1,4 +1,4 @@
-﻿Feature: Post(API)
+﻿Feature: UserPosts(API)
 
 A short summary of the feature
 
