@@ -12,6 +12,7 @@ Scenario: Get Latest Posts (from followed users and groups)
 Scenario: Get posts of a user
 	Given Created user shares a post
 	When Log into another user account
+	When User follows created user
 	And User requests posts of created user
 	Then User gets response with created user's posts
 
@@ -26,4 +27,3 @@ Scenario: Search a user
 	Given Log into another user account
 	When User enters created user's username
 	Then User gets response with created user's ID
- 
