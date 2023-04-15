@@ -9,7 +9,7 @@ Scenario: Get Latest Posts (from followed users and groups)
 	And User requests latest posts
 	Then User gets response with post shared by created user
 
-Scenario: Get posts of a user
+Scenario: Follow a user
 	Given Created user shares a post
 	When Log into another user account
 	When User follows created user
@@ -27,3 +27,10 @@ Scenario: Search a user
 	Given Log into another user account
 	When User enters created user's username
 	Then User gets response with created user's ID
+
+Scenario: Change username and info
+	Given Created user changes username
+	When Log into another user account
+	When User enters created user's new username
+	Then User gets response with created user's ID
+	
