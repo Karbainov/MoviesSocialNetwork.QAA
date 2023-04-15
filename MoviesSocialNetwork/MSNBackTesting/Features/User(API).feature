@@ -34,3 +34,10 @@ Scenario: Change username and info
 	When User enters created user's new username
 	Then User gets response with created user's ID
 	
+Scenario: Unfollow a user
+	Given Created user shares a post
+	When Log into another user account
+	When User follows created user
+	And User unfollows created user
+	And User requests posts of created user
+	Then User gets response without created user's posts
