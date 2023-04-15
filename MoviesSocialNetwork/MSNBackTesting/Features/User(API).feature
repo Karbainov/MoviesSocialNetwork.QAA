@@ -1,4 +1,4 @@
-﻿Feature: UserPosts(API)
+﻿Feature: User(API)
 
 A short summary of the feature
 
@@ -21,4 +21,9 @@ Scenario: Add comment to a post
 	And User writes a comment
 	And User requests comments of a post
 	Then User gets response with  comments of a post
+
+Scenario: Search a user
+	Given Log into another user account
+	When User enters created user's username
+	Then User gets response with created user's ID
  

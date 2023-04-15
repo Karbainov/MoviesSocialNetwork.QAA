@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Features\Userposts%28API%29.feature.cs">
-      <DependentUpon>UserPosts%28API%29.feature</DependentUpon>
+    <Compile Update="Features\User(API).feature.cs">
+      <DependentUpon>User%28API%29.feature</DependentUpon>
     </Compile>
   </ItemGroup>
 
