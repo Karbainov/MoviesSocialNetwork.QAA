@@ -14,4 +14,12 @@ Scenario: Follow a group
 	When Log into another user account
 	When User follows created group
 	And User requests latest posts
-	Then User get response with group post
+	Then User gets response with group post
+
+Scenario: Unfollow a group
+	Given Created user shares a post in a group
+	When Log into another user account
+	When User follows created group
+	When User unfollows created group
+	And User requests latest posts
+	Then User gets response without group post
