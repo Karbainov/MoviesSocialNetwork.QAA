@@ -23,3 +23,9 @@ Scenario: Unfollow a group
 	When User unfollows created group
 	And User requests latest posts
 	Then User gets response without group post
+
+Scenario: Change group name and info
+	Given Created user changes groupname
+	When Log into another user account
+	And User enters created group's new groupname
+	Then User gets response with created group's ID
