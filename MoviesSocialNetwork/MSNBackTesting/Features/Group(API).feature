@@ -2,13 +2,14 @@
 
 A short summary of the feature
 
-@tag1
+@creatingUser
 Scenario: Create a group
 	Given Created user creates a group
 	When Log into another user account
 	And User enters created group's groupname
 	Then User gets response with created group's ID
 
+@creatingUser @creatingGroup
 Scenario: Follow a group
 	Given Created user shares a post in a group
 	When Log into another user account
@@ -16,6 +17,7 @@ Scenario: Follow a group
 	And User requests latest posts
 	Then User gets response with group post
 
+@creatingUser @creatingGroup
 Scenario: Unfollow a group
 	Given Created user shares a post in a group
 	When Log into another user account
@@ -24,6 +26,7 @@ Scenario: Unfollow a group
 	And User requests latest posts
 	Then User gets response without group post
 
+@creatingUser @creatingGroup
 Scenario: Change group name and info
 	Given Created user changes groupname
 	When Log into another user account
